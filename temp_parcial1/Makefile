@@ -1,0 +1,8 @@
+BINARY = main
+SRCFILES = main.c
+
+all: elf bin
+
+include ../Makefile.incl
+
+ 
