@@ -1,0 +1,1493 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+                              main.o (adc_power_on)
+/home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+                              main.o (adc_power_off)
+/home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+                              main.o (gpio_set_mode)
+/home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                              main.o (rcc_set_adcpre)
+/home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+                              main.o (gpio_set)
+/home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+                              main.o (timer_enable_irq)
+/home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                              main.o (usart_set_baudrate)
+/home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+                              /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o) (usart_send)
+/home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+                              main.o (rcc_peripheral_enable_clock)
+/home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+                              /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o) (flash_set_ws)
+/home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+                              (reset_handler)
+/home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+                              main.o (nvic_enable_irq)
+/home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+                              /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o) (cm3_assert_failed)
+/home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+                              /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o) (flash_get_status_flags)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 main.o
+ .data          0x0000000000000000        0x0 main.o
+ .bss           0x0000000000000000        0x0 main.o
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .text          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .data          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .bss           0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .text.adc_enable_temperature_sensor
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .text.adc_disable_temperature_sensor
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .text.adc_enable_external_trigger_regular
+                0x0000000000000000       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .text.adc_disable_external_trigger_regular
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .text.adc_enable_external_trigger_injected
+                0x0000000000000000       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .text.adc_disable_external_trigger_injected
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .text.adc_calibration
+                0x0000000000000000       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .text.adc_calibrate
+                0x0000000000000000       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .text.adc_set_sample_time_on_all_channels
+                0x0000000000000000       0x2a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .data          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .bss           0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_enable_analog_watchdog_regular
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_disable_analog_watchdog_regular
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_enable_analog_watchdog_injected
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_disable_analog_watchdog_injected
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_enable_discontinuous_mode_regular
+                0x0000000000000000       0x18 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_disable_discontinuous_mode_regular
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_enable_discontinuous_mode_injected
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_disable_discontinuous_mode_injected
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_enable_automatic_injected_group_conversion
+                0x0000000000000000       0x12 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_disable_automatic_injected_group_conversion
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_enable_analog_watchdog_on_all_channels
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_enable_analog_watchdog_on_selected_channel
+                0x0000000000000000       0x18 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_enable_scan_mode
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_enable_eoc_interrupt_injected
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_disable_eoc_interrupt_injected
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_enable_awd_interrupt
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_disable_awd_interrupt
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_enable_eoc_interrupt
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_disable_eoc_interrupt
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_set_left_aligned
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_eoc_injected
+                0x0000000000000000        0x8 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_read_injected
+                0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_set_continuous_conversion_mode
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_set_watchdog_high_threshold
+                0x0000000000000000        0x8 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_set_watchdog_low_threshold
+                0x0000000000000000        0x8 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_set_injected_sequence
+                0x0000000000000000       0x26 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_set_injected_offset
+                0x0000000000000000       0x1e /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_start_conversion_regular
+                0x0000000000000000       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_start_conversion_injected
+                0x0000000000000000       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_enable_dma
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_disable_dma
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x0000000000000000       0x56 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x0000000000000000       0x51 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x0000000000000000       0xef /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x0000000000000000       0x6a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x0000000000000000      0x1df /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x0000000000000000       0xfa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x0000000000000000       0x58 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x0000000000000000      0x1b4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x0000000000000000      0x449 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x0000000000000000      0x456 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .text          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .data          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .bss           0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .text.gpio_set_eventout
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .text.gpio_primary_remap
+                0x0000000000000000       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .text.gpio_secondary_remap
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000000       0x56 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000000       0x51 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000000       0xef /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000000       0x6a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000000      0x1df /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000000       0xfa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000000       0x58 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000000000      0x1b4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .data          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .bss           0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_osc_ready_int_clear
+                0x0000000000000000       0x5c /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_osc_ready_int_enable
+                0x0000000000000000       0x5c /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_osc_ready_int_disable
+                0x0000000000000000       0x5c /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_osc_ready_int_flag
+                0x0000000000000000       0x54 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_css_int_clear
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_css_int_flag
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_osc_off
+                0x0000000000000000       0x58 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_css_enable
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_css_disable
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_set_pll2_multiplication_factor
+                0x0000000000000000       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_set_pll3_multiplication_factor
+                0x0000000000000000       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_rtc_clock_enabled_flag
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_enable_rtc_clock
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_set_rtc_clock_source
+                0x0000000000000000       0x90 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_set_usbpre
+                0x0000000000000000       0x18 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_set_prediv1
+                0x0000000000000000       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_set_prediv2
+                0x0000000000000000       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_set_prediv1_source
+                0x0000000000000000       0x18 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_system_clock_source
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hsi_out_64mhz
+                0x0000000000000000       0x74 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hsi_out_48mhz
+                0x0000000000000000       0x84 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hsi_out_24mhz
+                0x0000000000000000       0x70 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hse_8mhz_out_24mhz
+                0x0000000000000000       0x88 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hse_12mhz_out_72mhz
+                0x0000000000000000       0x8c /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hse_16mhz_out_72mhz
+                0x0000000000000000       0x8c /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hse_25mhz_out_72mhz
+                0x0000000000000000       0xac /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_backupdomain_reset
+                0x0000000000000000       0x18 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0x56 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0x51 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0xef /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0x6a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000      0x1df /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0xfa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000       0x58 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000000000      0x1b4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .text          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .data          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .bss           0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .text.gpio_get
+                0x0000000000000000        0x6 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .text.gpio_toggle
+                0x0000000000000000       0x12 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .text.gpio_port_read
+                0x0000000000000000        0x6 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .text.gpio_port_write
+                0x0000000000000000        0x4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .text.gpio_port_config_lock
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0x56 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0x51 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0xef /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0x6a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000      0x1df /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0xfa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0x58 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000      0x1b4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000       0x76 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x0000000000000000      0xdfd /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .data          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .bss           0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_reset
+                0x0000000000000000       0x80 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_interrupt_source
+                0x0000000000000000       0x16 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_get_flag
+                0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_clock_division
+                0x0000000000000000       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_preload
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_alignment
+                0x0000000000000000       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_direction_up
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_direction_down
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_one_shot_mode
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_update_on_any
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_update_on_overflow
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_update_event
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_update_event
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_output_idle_state
+                0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_reset_output_idle_state
+                0x0000000000000000        0xe /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_ti1_ch123_xor
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_ti1_ch1
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_master_mode
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_dma_on_compare_event
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_dma_on_update_event
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_compare_control_update_on_trigger
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_compare_control_update_on_trigger
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_preload_complementry_enable_bits
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_preload_complementry_enable_bits
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_repetition_counter
+                0x0000000000000000        0x4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_oc_clear
+                0x0000000000000000       0x34 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_oc_clear
+                0x0000000000000000       0x34 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_oc_fast_mode
+                0x0000000000000000       0x34 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_oc_slow_mode
+                0x0000000000000000       0x34 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_oc_mode
+                0x0000000000000000      0x18c /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_oc_preload
+                0x0000000000000000       0x34 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_oc_preload
+                0x0000000000000000       0x34 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_oc_polarity_high
+                0x0000000000000000       0x4a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_oc_polarity_low
+                0x0000000000000000       0x4a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_oc_output
+                0x0000000000000000       0x4a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_oc_output
+                0x0000000000000000       0x4a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_oc_idle_state_set
+                0x0000000000000000       0x4a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_oc_idle_state_unset
+                0x0000000000000000       0x4a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_oc_value
+                0x0000000000000000       0x20 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_break_main_output
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_break_main_output
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_break_automatic_output
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_break_automatic_output
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_break_polarity_high
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_break_polarity_low
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_break
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_break
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_enabled_off_state_in_run_mode
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_disabled_off_state_in_run_mode
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_enabled_off_state_in_idle_mode
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_disabled_off_state_in_idle_mode
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_break_lock
+                0x0000000000000000        0x8 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_deadtime
+                0x0000000000000000        0x4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_generate_event
+                0x0000000000000000        0x8 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_get_counter
+                0x0000000000000000        0x4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_counter
+                0x0000000000000000        0x4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_ic_set_filter
+                0x0000000000000000       0x50 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_ic_set_prescaler
+                0x0000000000000000       0x50 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_ic_set_input
+                0x0000000000000000       0x62 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_ic_enable
+                0x0000000000000000        0xe /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_ic_disable
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_slave_set_filter
+                0x0000000000000000       0x12 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_slave_set_prescaler
+                0x0000000000000000       0x12 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_slave_set_polarity
+                0x0000000000000000       0x12 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_slave_set_mode
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_slave_set_trigger
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000       0x56 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000       0x51 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000       0xef /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000       0x6a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000      0x1df /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000       0xfa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000       0x58 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000      0x1b4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000000000      0x82c /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .data          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .bss           0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_disable
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_recv_blocking
+                0x0000000000000000       0x12 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_enable_rx_dma
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_disable_rx_dma
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_enable_tx_dma
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_disable_tx_dma
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_disable_rx_interrupt
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_enable_tx_interrupt
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_disable_tx_interrupt
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_enable_error_interrupt
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .text.usart_disable_error_interrupt
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0x56 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0x51 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0xef /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0x6a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000      0x1df /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0xfa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000       0x58 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000      0x1b4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000000000      0x82c /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .text          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .data          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .bss           0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .text.usart_wait_recv_ready
+                0x0000000000000000        0x8 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .text.usart_get_flag
+                0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0x56 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0x51 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0xef /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0x6a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000      0x1df /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0xfa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0x58 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000      0x1b4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000       0x94 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000      0x29e /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000000000      0x82c /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .data          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .bss           0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_peripheral_disable_clock
+                0x0000000000000000        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_periph_clock_disable
+                0x0000000000000000       0x1e /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_periph_reset_pulse
+                0x0000000000000000       0x24 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_periph_reset_hold
+                0x0000000000000000        0x4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_periph_reset_release
+                0x0000000000000000        0x4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_set_mco
+                0x0000000000000000       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_osc_bypass_enable
+                0x0000000000000000       0x28 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_osc_bypass_disable
+                0x0000000000000000       0x28 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0x56 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0x51 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0xef /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0x6a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000      0x1df /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0xfa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000       0x58 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000      0x1b4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000000000      0x82c /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .data          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .bss           0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_prefetch_buffer_enable
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_prefetch_buffer_disable
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_unlock
+                0x0000000000000000       0x24 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_lock
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_clear_pgerr_flag
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_clear_eop_flag
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_clear_wrprterr_flag
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_clear_bsy_flag
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_wait_for_last_operation
+                0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_program_word
+                0x0000000000000000       0x18 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_unlock_option_bytes
+                0x0000000000000000       0x18 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_erase_option_bytes
+                0x0000000000000000       0x34 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .text.flash_program_option_bytes
+                0x0000000000000000       0x34 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000       0x56 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000       0x51 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000       0xef /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000       0x6a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000      0x1df /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000       0xfa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000       0x58 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000      0x1b4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000       0xdc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000000000       0x82 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .text          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .data          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .bss           0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0x58 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0x56 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0x51 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0xef /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0x6a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000      0x1df /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000000000       0xfa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .data          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .bss           0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_disable_irq
+                0x0000000000000000       0x18 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_get_pending_irq
+                0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_set_pending_irq
+                0x0000000000000000       0x1a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_clear_pending_irq
+                0x0000000000000000       0x18 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_get_irq_enabled
+                0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_set_priority
+                0x0000000000000000       0x20 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_get_active_irq
+                0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_generate_software_interrupt
+                0x0000000000000000       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0x56 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0x51 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0xef /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0x6a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000      0x1df /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0xfa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000       0x58 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000000000      0x1a2 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .text          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .data          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .bss           0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .text.cm3_assert_failed
+                0x0000000000000000        0x2 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .text.cm3_assert_failed_verbose
+                0x0000000000000000        0x6 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_info    0x0000000000000000      0x104 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_abbrev  0x0000000000000000       0x98 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_loc     0x0000000000000000       0x94 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_aranges
+                0x0000000000000000       0x28 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_ranges  0x0000000000000000       0x18 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0x8a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0x56 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0x51 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0xef /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0x6a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000      0x1df /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0xfa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x0000000000000000       0x16 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_line    0x0000000000000000      0x1c7 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_str     0x0000000000000000     0x40e0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .comment       0x0000000000000000       0x7a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .debug_frame   0x0000000000000000       0x38 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(assert.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .group         0x0000000000000000        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .data          0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .bss           0x0000000000000000        0x0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_halfcycle_enable
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_halfcycle_disable
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_unlock_upper
+                0x0000000000000000       0x34 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_lock_upper
+                0x0000000000000000       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_clear_pgerr_flag_upper
+                0x0000000000000000       0x20 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_clear_eop_flag_upper
+                0x0000000000000000       0x20 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_clear_wrprterr_flag_upper
+                0x0000000000000000       0x20 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_clear_bsy_flag_upper
+                0x0000000000000000       0x20 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_clear_status_flags
+                0x0000000000000000       0x38 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_get_status_flags
+                0x0000000000000000       0x28 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_program_half_word
+                0x0000000000000000       0x64 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_erase_page
+                0x0000000000000000       0x7c /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .text.flash_erase_all_pages
+                0x0000000000000000       0x48 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_info    0x0000000000000000      0x33d /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_abbrev  0x0000000000000000      0x14f /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_loc     0x0000000000000000       0x90 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_aranges
+                0x0000000000000000       0x80 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_ranges  0x0000000000000000       0x70 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000       0xc9 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000      0xa90 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000       0x56 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000       0x51 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000       0xef /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000       0x6a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000      0x1df /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000       0xfa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000       0x58 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000      0x1b4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000       0xdc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_macro   0x0000000000000000       0x82 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_line    0x0000000000000000      0x52c /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_str     0x0000000000000000     0x5646 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .comment       0x0000000000000000       0x7a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .debug_frame   0x0000000000000000      0x10c /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x0000000008000000 0x0000000000010000 xr
+ram              0x0000000020000000 0x0000000000005000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD main.o
+START GROUP
+LOAD /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a
+LOAD /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a
+LOAD /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a
+END GROUP
+LOAD /home/alan/stm32f103c8t6//rtos/libwwg/libwwg.a
+LOAD /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a
+START GROUP
+LOAD /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a
+LOAD /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a
+END GROUP
+START GROUP
+LOAD /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7-m/nofp/libgcc.a
+LOAD /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a
+LOAD /opt/gcc-arm/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a
+END GROUP
+
+.text           0x0000000008000000      0xc04
+ *(.vectors)
+ .vectors       0x0000000008000000      0x150 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+                0x0000000008000000                vector_table
+ *(.text*)
+ .text.gpio_setup
+                0x0000000008000150       0x5c main.o
+                0x0000000008000150                gpio_setup
+ .text.ADC_setup
+                0x00000000080001ac       0x70 main.o
+                0x00000000080001ac                ADC_setup
+ .text.convertIntToChar
+                0x000000000800021c       0x22 main.o
+                0x000000000800021c                convertIntToChar
+ .text.tim_setup
+                0x000000000800023e       0x76 main.o
+                0x000000000800023e                tim_setup
+ .text.send_word
+                0x00000000080002b4       0x1c main.o
+                0x00000000080002b4                send_word
+ .text.tim2_isr
+                0x00000000080002d0      0x114 main.o
+                0x00000000080002d0                tim2_isr
+ .text.usart1_isr
+                0x00000000080003e4      0x134 main.o
+                0x00000000080003e4                usart1_isr
+ .text.startup.main
+                0x0000000008000518       0x8c main.o
+                0x0000000008000518                main
+ .text.adc_power_on
+                0x00000000080005a4       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+                0x00000000080005a4                adc_power_on
+ .text.adc_start_conversion_direct
+                0x00000000080005b4       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+                0x00000000080005b4                adc_start_conversion_direct
+ .text.adc_set_dual_mode
+                0x00000000080005c4       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+                0x00000000080005c4                adc_set_dual_mode
+ .text.adc_reset_calibration
+                0x00000000080005d4       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+                0x00000000080005d4                adc_reset_calibration
+ .text.adc_calibrate_async
+                0x00000000080005e8        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+                0x00000000080005e8                adc_calibrate_async
+ .text.adc_is_calibrating
+                0x00000000080005f2        0x8 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+                0x00000000080005f2                adc_is_calibrating
+ .text.adc_set_sample_time
+                0x00000000080005fa       0x38 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+                0x00000000080005fa                adc_set_sample_time
+ .text.adc_power_off
+                0x0000000008000632        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+                0x0000000008000632                adc_power_off
+ .text.adc_disable_scan_mode
+                0x000000000800063c        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+                0x000000000800063c                adc_disable_scan_mode
+ .text.adc_set_right_aligned
+                0x0000000008000646        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+                0x0000000008000646                adc_set_right_aligned
+ .text.adc_eoc  0x0000000008000650        0x8 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+                0x0000000008000650                adc_eoc
+ .text.adc_read_regular
+                0x0000000008000658        0x4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+                0x0000000008000658                adc_read_regular
+ .text.adc_set_single_conversion_mode
+                0x000000000800065c        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+                0x000000000800065c                adc_set_single_conversion_mode
+ .text.adc_set_regular_sequence
+                0x0000000008000666       0x72 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+                0x0000000008000666                adc_set_regular_sequence
+ .text.gpio_set_mode
+                0x00000000080006d8       0x5e /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+                0x00000000080006d8                gpio_set_mode
+ *fill*         0x0000000008000736        0x2 
+ .text.rcc_osc_on.part.0
+                0x0000000008000738       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_is_osc_ready
+                0x0000000008000748       0x5c /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x0000000008000748                rcc_is_osc_ready
+ .text.rcc_wait_for_osc_ready
+                0x00000000080007a4       0x10 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x00000000080007a4                rcc_wait_for_osc_ready
+ .text.rcc_osc_on
+                0x00000000080007b4       0x54 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x00000000080007b4                rcc_osc_on
+ .text.rcc_set_sysclk_source
+                0x0000000008000808       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x0000000008000808                rcc_set_sysclk_source
+ .text.rcc_set_pll_multiplication_factor
+                0x000000000800081c       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x000000000800081c                rcc_set_pll_multiplication_factor
+ .text.rcc_set_pll_source
+                0x0000000008000830       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x0000000008000830                rcc_set_pll_source
+ .text.rcc_set_pllxtpre
+                0x0000000008000844       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x0000000008000844                rcc_set_pllxtpre
+ .text.rcc_set_adcpre
+                0x0000000008000858       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x0000000008000858                rcc_set_adcpre
+ .text.rcc_set_ppre2
+                0x000000000800086c       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x000000000800086c                rcc_set_ppre2
+ .text.rcc_set_ppre1
+                0x0000000008000880       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x0000000008000880                rcc_set_ppre1
+ .text.rcc_set_hpre
+                0x0000000008000894       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x0000000008000894                rcc_set_hpre
+ .text.rcc_clock_setup_in_hse_8mhz_out_72mhz
+                0x00000000080008a8       0x8c /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x00000000080008a8                rcc_clock_setup_in_hse_8mhz_out_72mhz
+ .text.gpio_set
+                0x0000000008000934        0x4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+                0x0000000008000934                gpio_set
+ .text.gpio_clear
+                0x0000000008000938        0x6 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+                0x0000000008000938                gpio_clear
+ .text.timer_enable_irq
+                0x000000000800093e        0x8 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+                0x000000000800093e                timer_enable_irq
+ .text.timer_disable_irq
+                0x0000000008000946        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+                0x0000000008000946                timer_disable_irq
+ .text.timer_clear_flag
+                0x0000000008000950        0x6 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+                0x0000000008000950                timer_clear_flag
+ .text.timer_set_mode
+                0x0000000008000956       0x12 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+                0x0000000008000956                timer_set_mode
+ .text.timer_disable_preload
+                0x0000000008000968        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+                0x0000000008000968                timer_disable_preload
+ .text.timer_continuous_mode
+                0x0000000008000972        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+                0x0000000008000972                timer_continuous_mode
+ .text.timer_enable_counter
+                0x000000000800097c        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+                0x000000000800097c                timer_enable_counter
+ .text.timer_disable_counter
+                0x0000000008000986        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+                0x0000000008000986                timer_disable_counter
+ .text.timer_set_prescaler
+                0x0000000008000990        0x4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+                0x0000000008000990                timer_set_prescaler
+ .text.timer_set_period
+                0x0000000008000994        0x4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+                0x0000000008000994                timer_set_period
+ .text.usart_set_baudrate
+                0x0000000008000998       0x28 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x0000000008000998                usart_set_baudrate
+ .text.usart_set_databits
+                0x00000000080009c0       0x12 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x00000000080009c0                usart_set_databits
+ .text.usart_set_stopbits
+                0x00000000080009d2        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x00000000080009d2                usart_set_stopbits
+ .text.usart_set_parity
+                0x00000000080009de        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x00000000080009de                usart_set_parity
+ .text.usart_set_mode
+                0x00000000080009ea        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x00000000080009ea                usart_set_mode
+ .text.usart_set_flow_control
+                0x00000000080009f6        0xc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x00000000080009f6                usart_set_flow_control
+ .text.usart_enable
+                0x0000000008000a02        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x0000000008000a02                usart_enable
+ .text.usart_send_blocking
+                0x0000000008000a0c       0x16 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x0000000008000a0c                usart_send_blocking
+ .text.usart_enable_rx_interrupt
+                0x0000000008000a22        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                0x0000000008000a22                usart_enable_rx_interrupt
+ .text.usart_send
+                0x0000000008000a2c        0x8 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+                0x0000000008000a2c                usart_send
+ .text.usart_recv
+                0x0000000008000a34        0x8 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+                0x0000000008000a34                usart_recv
+ .text.usart_wait_send_ready
+                0x0000000008000a3c        0x8 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+                0x0000000008000a3c                usart_wait_send_ready
+ .text.rcc_peripheral_enable_clock
+                0x0000000008000a44        0x8 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+                0x0000000008000a44                rcc_peripheral_enable_clock
+ .text.rcc_peripheral_reset
+                0x0000000008000a4c        0x8 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+                0x0000000008000a4c                rcc_peripheral_reset
+ .text.rcc_peripheral_clear_reset
+                0x0000000008000a54        0xa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+                0x0000000008000a54                rcc_peripheral_clear_reset
+ .text.rcc_periph_clock_enable
+                0x0000000008000a5e       0x1c /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+                0x0000000008000a5e                rcc_periph_clock_enable
+ *fill*         0x0000000008000a7a        0x2 
+ .text.flash_set_ws
+                0x0000000008000a7c       0x14 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+                0x0000000008000a7c                flash_set_ws
+ .text.blocking_handler
+                0x0000000008000a90        0x2 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+                0x0000000008000a90                usart3_isr
+                0x0000000008000a90                rtc_isr
+                0x0000000008000a90                tim7_isr
+                0x0000000008000a90                adc1_2_isr
+                0x0000000008000a90                tim1_trg_com_isr
+                0x0000000008000a90                usb_hp_can_tx_isr
+                0x0000000008000a90                tim6_isr
+                0x0000000008000a90                usb_wakeup_isr
+                0x0000000008000a90                blocking_handler
+                0x0000000008000a90                tim5_isr
+                0x0000000008000a90                otg_fs_isr
+                0x0000000008000a90                spi1_isr
+                0x0000000008000a90                exti2_isr
+                0x0000000008000a90                dma1_channel6_isr
+                0x0000000008000a90                can_rx1_isr
+                0x0000000008000a90                dma1_channel5_isr
+                0x0000000008000a90                dma2_channel5_isr
+                0x0000000008000a90                usage_fault_handler
+                0x0000000008000a90                tim8_trg_com_isr
+                0x0000000008000a90                can2_rx0_isr
+                0x0000000008000a90                tim1_brk_isr
+                0x0000000008000a90                can2_rx1_isr
+                0x0000000008000a90                tim1_cc_isr
+                0x0000000008000a90                sdio_isr
+                0x0000000008000a90                eth_isr
+                0x0000000008000a90                dma1_channel4_isr
+                0x0000000008000a90                tim8_brk_isr
+                0x0000000008000a90                dma2_channel4_5_isr
+                0x0000000008000a90                pvd_isr
+                0x0000000008000a90                rcc_isr
+                0x0000000008000a90                flash_isr
+                0x0000000008000a90                uart4_isr
+                0x0000000008000a90                rtc_alarm_isr
+                0x0000000008000a90                exti15_10_isr
+                0x0000000008000a90                hard_fault_handler
+                0x0000000008000a90                exti1_isr
+                0x0000000008000a90                i2c1_ev_isr
+                0x0000000008000a90                dma2_channel1_isr
+                0x0000000008000a90                spi2_isr
+                0x0000000008000a90                tim8_up_isr
+                0x0000000008000a90                dma2_channel2_isr
+                0x0000000008000a90                exti3_isr
+                0x0000000008000a90                adc3_isr
+                0x0000000008000a90                tim3_isr
+                0x0000000008000a90                usart2_isr
+                0x0000000008000a90                usb_lp_can_rx0_isr
+                0x0000000008000a90                i2c2_er_isr
+                0x0000000008000a90                i2c2_ev_isr
+                0x0000000008000a90                uart5_isr
+                0x0000000008000a90                fsmc_isr
+                0x0000000008000a90                dma1_channel1_isr
+                0x0000000008000a90                exti4_isr
+                0x0000000008000a90                mem_manage_handler
+                0x0000000008000a90                can2_tx_isr
+                0x0000000008000a90                exti9_5_isr
+                0x0000000008000a90                dma2_channel3_isr
+                0x0000000008000a90                dma1_channel7_isr
+                0x0000000008000a90                tim1_up_isr
+                0x0000000008000a90                can2_sce_isr
+                0x0000000008000a90                tim4_isr
+                0x0000000008000a90                dma1_channel2_isr
+                0x0000000008000a90                i2c1_er_isr
+                0x0000000008000a90                can_sce_isr
+                0x0000000008000a90                tim8_cc_isr
+                0x0000000008000a90                tamper_isr
+                0x0000000008000a90                eth_wkup_isr
+                0x0000000008000a90                bus_fault_handler
+                0x0000000008000a90                wwdg_isr
+                0x0000000008000a90                dma1_channel3_isr
+                0x0000000008000a90                spi3_isr
+                0x0000000008000a90                exti0_isr
+ .text.null_handler
+                0x0000000008000a92        0x2 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+                0x0000000008000a92                null_handler
+                0x0000000008000a92                sv_call_handler
+                0x0000000008000a92                pend_sv_handler
+                0x0000000008000a92                debug_monitor_handler
+                0x0000000008000a92                sys_tick_handler
+                0x0000000008000a92                nmi_handler
+ .text.reset_handler
+                0x0000000008000a94       0x8c /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+                0x0000000008000a94                reset_handler
+ .text.nvic_enable_irq
+                0x0000000008000b20       0x1a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+                0x0000000008000b20                nvic_enable_irq
+                0x0000000008000b3c                . = ALIGN (0x4)
+ *fill*         0x0000000008000b3a        0x2 
+ *(.rodata*)
+ .rodata.usart1_isr.str1.1
+                0x0000000008000b3c       0xc5 main.o
+                0x0000000008000c04                . = ALIGN (0x4)
+ *fill*         0x0000000008000c01        0x3 
+
+.glue_7         0x0000000008000c04        0x0
+ .glue_7        0x0000000008000c04        0x0 linker stubs
+
+.glue_7t        0x0000000008000c04        0x0
+ .glue_7t       0x0000000008000c04        0x0 linker stubs
+
+.vfp11_veneer   0x0000000008000c04        0x0
+ .vfp11_veneer  0x0000000008000c04        0x0 linker stubs
+
+.v4_bx          0x0000000008000c04        0x0
+ .v4_bx         0x0000000008000c04        0x0 linker stubs
+
+.iplt           0x0000000008000c04        0x0
+ .iplt          0x0000000008000c04        0x0 main.o
+
+.rel.dyn        0x0000000008000c04        0x0
+ .rel.iplt      0x0000000008000c04        0x0 main.o
+
+.preinit_array  0x0000000008000c04        0x0
+                0x0000000008000c04                . = ALIGN (0x4)
+                0x0000000008000c04                __preinit_array_start = .
+ *(.preinit_array)
+                0x0000000008000c04                __preinit_array_end = .
+
+.init_array     0x0000000008000c04        0x0
+                0x0000000008000c04                . = ALIGN (0x4)
+                0x0000000008000c04                __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                0x0000000008000c04                __init_array_end = .
+
+.fini_array     0x0000000008000c04        0x0
+                0x0000000008000c04                . = ALIGN (0x4)
+                0x0000000008000c04                __fini_array_start = .
+ *(.fini_array)
+ *(SORT_BY_NAME(.fini_array.*))
+                0x0000000008000c04                __fini_array_end = .
+
+.ARM.extab
+ *(.ARM.extab*)
+
+.ARM.exidx      0x0000000008000c04        0x0
+                0x0000000008000c04                __exidx_start = .
+ *(.ARM.exidx*)
+                0x0000000008000c04                __exidx_end = .
+                0x0000000008000c04                . = ALIGN (0x4)
+                0x0000000008000c04                _etext = .
+
+.data           0x0000000020000000       0x6c load address 0x0000000008000c04
+                0x0000000020000000                _data = .
+ *(.data*)
+ .data.maxTemp  0x0000000020000000        0x2 main.o
+                0x0000000020000000                maxTemp
+ .data.maxTempChar
+                0x0000000020000002        0x4 main.o
+                0x0000000020000002                maxTempChar
+ .data.minTemp  0x0000000020000006        0x2 main.o
+                0x0000000020000006                minTemp
+ .data.minTempChar
+                0x0000000020000008        0x4 main.o
+                0x0000000020000008                minTempChar
+ .data.recv_word
+                0x000000002000000c        0x7 main.o
+                0x000000002000000c                recv_word
+ .data.status_message
+                0x0000000020000013       0x4c main.o
+                0x0000000020000013                status_message
+ *fill*         0x000000002000005f        0x1 
+ .data.rcc_ahb_frequency
+                0x0000000020000060        0x4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x0000000020000060                rcc_ahb_frequency
+ .data.rcc_apb1_frequency
+                0x0000000020000064        0x4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x0000000020000064                rcc_apb1_frequency
+ .data.rcc_apb2_frequency
+                0x0000000020000068        0x4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                0x0000000020000068                rcc_apb2_frequency
+                0x000000002000006c                . = ALIGN (0x4)
+                0x000000002000006c                _edata = .
+                0x0000000008000c04                _data_loadaddr = LOADADDR (.data)
+
+.igot.plt       0x000000002000006c        0x0 load address 0x0000000008000c70
+ .igot.plt      0x000000002000006c        0x0 main.o
+
+.bss            0x000000002000006c        0x4 load address 0x0000000008000c70
+ *(.bss*)
+ .bss.j         0x000000002000006c        0x1 main.o
+                0x000000002000006c                j
+ .bss.k         0x000000002000006d        0x1 main.o
+                0x000000002000006d                k
+ *(COMMON)
+                0x0000000020000070                . = ALIGN (0x4)
+ *fill*         0x000000002000006e        0x2 
+                0x0000000020000070                _ebss = .
+
+/DISCARD/
+ *(.eh_frame)
+                0x0000000020000070                . = ALIGN (0x4)
+                0x0000000020000070                end = .
+                0x0000000020005000                PROVIDE (_stack = (ORIGIN (ram) + LENGTH (ram)))
+OUTPUT(main.elf elf32-littlearm)
+
+.debug_info     0x0000000000000000     0x5a57
+ .debug_info    0x0000000000000000      0xfa6 main.o
+ .debug_info    0x0000000000000fa6      0x3cb /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .debug_info    0x0000000000001371      0x86d /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_info    0x0000000000001bde      0x20a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_info    0x0000000000001de8     0x128f /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_info    0x0000000000003077      0x266 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_info    0x00000000000032dd     0x12cc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_info    0x00000000000045a9      0x519 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_info    0x0000000000004ac2      0x1c5 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_info    0x0000000000004c87      0x603 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_info    0x000000000000528a      0x29f /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_info    0x0000000000005529      0x2dd /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_info    0x0000000000005806      0x251 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+
+.debug_abbrev   0x0000000000000000     0x1226
+ .debug_abbrev  0x0000000000000000      0x267 main.o
+ .debug_abbrev  0x0000000000000267      0x192 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .debug_abbrev  0x00000000000003f9      0x181 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_abbrev  0x000000000000057a       0xd0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_abbrev  0x000000000000064a      0x2e1 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_abbrev  0x000000000000092b      0x116 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_abbrev  0x0000000000000a41      0x1c1 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_abbrev  0x0000000000000c02      0x129 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_abbrev  0x0000000000000d2b       0xc8 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_abbrev  0x0000000000000df3      0x15d /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_abbrev  0x0000000000000f50       0xdc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_abbrev  0x000000000000102c      0x145 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_abbrev  0x0000000000001171       0xb5 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+
+.debug_loc      0x0000000000000000     0x16cd
+ .debug_loc     0x0000000000000000      0x1c3 main.o
+ .debug_loc     0x00000000000001c3      0x152 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .debug_loc     0x0000000000000315      0x3f7 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_loc     0x000000000000070c      0x134 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_loc     0x0000000000000840      0x39c /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_loc     0x0000000000000bdc       0xbe /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_loc     0x0000000000000c9a      0x47a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_loc     0x0000000000001114      0x172 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_loc     0x0000000000001286       0x99 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_loc     0x000000000000131f       0x6f /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_loc     0x000000000000138e       0xca /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_loc     0x0000000000001458      0x128 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_loc     0x0000000000001580      0x14d /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+
+.debug_aranges  0x0000000000000000      0x8f0
+ .debug_aranges
+                0x0000000000000000       0x58 main.o
+ .debug_aranges
+                0x0000000000000058       0x98 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .debug_aranges
+                0x00000000000000f0      0x148 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_aranges
+                0x0000000000000238       0x38 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_aranges
+                0x0000000000000270      0x158 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_aranges
+                0x00000000000003c8       0x50 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_aranges
+                0x0000000000000418      0x270 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_aranges
+                0x0000000000000688       0xb8 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_aranges
+                0x0000000000000740       0x40 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_aranges
+                0x0000000000000780       0x58 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_aranges
+                0x00000000000007d8       0x88 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_aranges
+                0x0000000000000860       0x30 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_aranges
+                0x0000000000000890       0x60 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+
+.debug_ranges   0x0000000000000000      0x8d8
+ .debug_ranges  0x0000000000000000       0x90 main.o
+ .debug_ranges  0x0000000000000090       0x88 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .debug_ranges  0x0000000000000118      0x138 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_ranges  0x0000000000000250       0x28 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_ranges  0x0000000000000278      0x1b8 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_ranges  0x0000000000000430       0x40 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_ranges  0x0000000000000470      0x260 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_ranges  0x00000000000006d0       0xa8 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_ranges  0x0000000000000778       0x30 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_ranges  0x00000000000007a8       0x48 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_ranges  0x00000000000007f0       0x78 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_ranges  0x0000000000000868       0x20 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_ranges  0x0000000000000888       0x50 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+
+.debug_line     0x0000000000000000     0x4e9f
+ .debug_line    0x0000000000000000      0x5c4 main.o
+ .debug_line    0x00000000000005c4      0x591 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .debug_line    0x0000000000000b55      0x83a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_line    0x000000000000138f      0x33e /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_line    0x00000000000016cd      0xc5f /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_line    0x000000000000232c      0x354 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_line    0x0000000000002680     0x1050 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_line    0x00000000000036d0      0x55a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_line    0x0000000000003c2a      0x349 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_line    0x0000000000003f73      0x37d /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_line    0x00000000000042f0      0x46f /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_line    0x000000000000475f      0x3d6 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_line    0x0000000000004b35      0x36a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+
+.debug_str      0x0000000000000000    0x174f2
+ .debug_str     0x0000000000000000      0x7a9 main.o
+                                        0x85e (size before relaxing)
+ .debug_str     0x00000000000007a9     0x718c /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+                                       0x73b9 (size before relaxing)
+ .debug_str     0x0000000000007935      0x411 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+                                       0x76e9 (size before relaxing)
+ .debug_str     0x0000000000007d46     0x380a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+                                       0x8512 (size before relaxing)
+ .debug_str     0x000000000000b550     0x303a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+                                       0x7db0 (size before relaxing)
+ .debug_str     0x000000000000e58a       0x66 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+                                       0x8506 (size before relaxing)
+ .debug_str     0x000000000000e5f0     0x4c99 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+                                       0xbeeb (size before relaxing)
+ .debug_str     0x0000000000013289     0x10cd /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+                                       0x82f2 (size before relaxing)
+ .debug_str     0x0000000000014356       0x2d /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+                                       0x812c (size before relaxing)
+ .debug_str     0x0000000000014383      0x11c /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+                                       0x7733 (size before relaxing)
+ .debug_str     0x000000000001449f      0x181 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+                                       0x55b9 (size before relaxing)
+ .debug_str     0x0000000000014620     0x24f2 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+                                       0x665a (size before relaxing)
+ .debug_str     0x0000000000016b12      0x9e0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+                                       0x536f (size before relaxing)
+
+.comment        0x0000000000000000       0x79
+ .comment       0x0000000000000000       0x79 main.o
+                                         0x7a (size before relaxing)
+ .comment       0x0000000000000079       0x7a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .comment       0x0000000000000079       0x7a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .comment       0x0000000000000079       0x7a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .comment       0x0000000000000079       0x7a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .comment       0x0000000000000079       0x7a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .comment       0x0000000000000079       0x7a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .comment       0x0000000000000079       0x7a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .comment       0x0000000000000079       0x7a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .comment       0x0000000000000079       0x7a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .comment       0x0000000000000079       0x7a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .comment       0x0000000000000079       0x7a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .comment       0x0000000000000079       0x7a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+
+.ARM.attributes
+                0x0000000000000000       0x2d
+ .ARM.attributes
+                0x0000000000000000       0x2d main.o
+ .ARM.attributes
+                0x000000000000002d       0x2d /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .ARM.attributes
+                0x000000000000005a       0x2d /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .ARM.attributes
+                0x0000000000000087       0x2d /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .ARM.attributes
+                0x00000000000000b4       0x2d /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .ARM.attributes
+                0x00000000000000e1       0x2d /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .ARM.attributes
+                0x000000000000010e       0x2d /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .ARM.attributes
+                0x000000000000013b       0x2d /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .ARM.attributes
+                0x0000000000000168       0x2d /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .ARM.attributes
+                0x0000000000000195       0x2d /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .ARM.attributes
+                0x00000000000001c2       0x2d /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .ARM.attributes
+                0x00000000000001ef       0x2d /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .ARM.attributes
+                0x000000000000021c       0x2d /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+
+.debug_frame    0x0000000000000000     0x11e8
+ .debug_frame   0x0000000000000000       0xf4 main.o
+ .debug_frame   0x00000000000000f4      0x128 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .debug_frame   0x000000000000021c      0x294 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_frame   0x00000000000004b0       0x60 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_frame   0x0000000000000510      0x2e0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_frame   0x00000000000007f0       0x80 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_frame   0x0000000000000870      0x4d8 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_frame   0x0000000000000d48      0x170 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_frame   0x0000000000000eb8       0x60 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_frame   0x0000000000000f18       0xd0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_frame   0x0000000000000fe8      0x120 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_frame   0x0000000000001108       0x40 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_frame   0x0000000000001148       0xa0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+
+.debug_macro    0x0000000000000000     0x5646
+ .debug_macro   0x0000000000000000       0xb9 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x00000000000000b9      0xa90 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x0000000000000b49       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x0000000000000b6b       0x56 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x0000000000000bc1       0x51 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x0000000000000c12       0xef /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x0000000000000d01       0x6a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x0000000000000d6b      0x1df /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x0000000000000f4a       0x22 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x0000000000000f6c       0xfa /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x0000000000001066       0x58 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x00000000000010be      0x1b4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x0000000000001272      0x449 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x00000000000016bb      0x456 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x0000000000001b11       0xb9 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x0000000000001bca       0xb9 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000001c83       0x76 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000001cf9      0xdfd /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000000000002af6       0xe0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000002bd6       0x16 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000002bec      0x82c /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000003418       0xdc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x00000000000034f4       0x82 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x0000000000003576       0xb9 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x000000000000362f       0xcc /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x00000000000036fb      0xf96 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x0000000000004691       0xdb /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x000000000000476c       0x94 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000004800      0x29e /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_all.o)
+ .debug_macro   0x0000000000004a9e       0xdb /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(usart_common_f124.o)
+ .debug_macro   0x0000000000004b79       0xcf /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x0000000000004c48       0xb9 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(flash_common_f01.o)
+ .debug_macro   0x0000000000004d01       0xd0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000004dd1      0x3a1 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x0000000000005172       0x6a /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x00000000000051dc      0x1a2 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x000000000000537e       0xb4 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000005432       0x64 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000000000005496      0x1b0 /home/alan/stm32f103c8t6/libopencm3/lib/libopencm3_stm32f1.a(nvic.o)
