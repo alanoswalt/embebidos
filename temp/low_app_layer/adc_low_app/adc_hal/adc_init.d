@@ -1,0 +1,21 @@
+low_app_layer/adc_low_app/adc_hal/adc_init.o: \
+ low_app_layer/adc_low_app/adc_hal/adc_init.c \
+ low_app_layer/adc_low_app/adc_hal/adc_init.h \
+ /Users/Jero/stm32f103c8t6/libopencm3/include/libopencm3/stm32/rcc.h \
+ /Users/Jero/stm32f103c8t6/libopencm3/include/libopencm3/cm3/common.h \
+ /opt/gcc-arm/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
+ /opt/gcc-arm/arm-none-eabi/include/stdint.h \
+ /opt/gcc-arm/arm-none-eabi/include/machine/_default_types.h \
+ /opt/gcc-arm/arm-none-eabi/include/sys/features.h \
+ /opt/gcc-arm/arm-none-eabi/include/_newlib_version.h \
+ /opt/gcc-arm/arm-none-eabi/include/sys/_intsup.h \
+ /opt/gcc-arm/arm-none-eabi/include/sys/_stdint.h \
+ /opt/gcc-arm/lib/gcc/arm-none-eabi/9.2.1/include/stdbool.h \
+ /Users/Jero/stm32f103c8t6/libopencm3/include/libopencm3/stm32/memorymap.h \
+ /Users/Jero/stm32f103c8t6/libopencm3/include/libopencm3/stm32/f1/memorymap.h \
+ /Users/Jero/stm32f103c8t6/libopencm3/include/libopencm3/cm3/memorymap.h \
+ /Users/Jero/stm32f103c8t6/libopencm3/include/libopencm3/stm32/f1/rcc.h \
+ /Users/Jero/stm32f103c8t6/libopencm3/include/libopencm3/stm32/common/rcc_common_all.h \
+ /Users/Jero/stm32f103c8t6/libopencm3/include/libopencm3/stm32/adc.h \
+ /Users/Jero/stm32f103c8t6/libopencm3/include/libopencm3/stm32/f1/adc.h \
+ /Users/Jero/stm32f103c8t6/libopencm3/include/libopencm3/stm32/common/adc_common_v1.h

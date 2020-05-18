@@ -1,0 +1,23 @@
+low_app_layer/adc_low_app/adc_start.o: \
+ low_app_layer/adc_low_app/adc_start.c \
+ low_app_layer/adc_low_app/adc_start.h \
+ /opt/gcc-arm/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
+ /opt/gcc-arm/arm-none-eabi/include/stdint.h \
+ /opt/gcc-arm/arm-none-eabi/include/machine/_default_types.h \
+ /opt/gcc-arm/arm-none-eabi/include/sys/features.h \
+ /opt/gcc-arm/arm-none-eabi/include/_newlib_version.h \
+ /opt/gcc-arm/arm-none-eabi/include/sys/_intsup.h \
+ /opt/gcc-arm/arm-none-eabi/include/sys/_stdint.h \
+ low_app_layer/adc_low_app/adc_hal/adc_i2c_init.h \
+ low_app_layer/adc_low_app/adc_hal/../../I2C_low_app/i2c_Virtual.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/stm32/rcc.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/cm3/common.h \
+ /opt/gcc-arm/lib/gcc/arm-none-eabi/9.2.1/include/stdbool.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/stm32/memorymap.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/stm32/f1/memorymap.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/cm3/memorymap.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/stm32/f1/rcc.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/stm32/common/rcc_common_all.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/stm32/gpio.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/stm32/f1/gpio.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/stm32/common/gpio_common_all.h

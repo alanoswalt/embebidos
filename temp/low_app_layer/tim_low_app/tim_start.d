@@ -1,0 +1,28 @@
+low_app_layer/tim_low_app/tim_start.o: \
+ low_app_layer/tim_low_app/tim_start.c \
+ low_app_layer/tim_low_app/tim_start.h \
+ /opt/gcc-arm/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
+ /opt/gcc-arm/arm-none-eabi/include/stdint.h \
+ /opt/gcc-arm/arm-none-eabi/include/machine/_default_types.h \
+ /opt/gcc-arm/arm-none-eabi/include/sys/features.h \
+ /opt/gcc-arm/arm-none-eabi/include/_newlib_version.h \
+ /opt/gcc-arm/arm-none-eabi/include/sys/_intsup.h \
+ /opt/gcc-arm/arm-none-eabi/include/sys/_stdint.h \
+ low_app_layer/tim_low_app/tim_hal/tim_init.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/stm32/rcc.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/cm3/common.h \
+ /opt/gcc-arm/lib/gcc/arm-none-eabi/9.2.1/include/stdbool.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/stm32/memorymap.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/stm32/f1/memorymap.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/cm3/memorymap.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/stm32/f1/rcc.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/stm32/common/rcc_common_all.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/cm3/nvic.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/dispatch/nvic.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/stm32/f1/nvic.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/stm32/timer.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/stm32/f1/timer.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/stm32/common/timer_common_all.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/stm32/gpio.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/stm32/f1/gpio.h \
+ /home/alan/stm32f103c8t6/libopencm3/include/libopencm3/stm32/common/gpio_common_all.h
