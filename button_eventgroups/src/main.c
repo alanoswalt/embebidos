@@ -23,7 +23,7 @@
 #define BUTTON_PIN_EXTI EXTI0
 
 //RTOS defines
-EventGroupHandle_t button_event_group;
+EventGroupHandle_t button_event_group; //Crear el handler del evento, typo de dato handler
 #define BUTTON_EVENT_BIT (1 << 0)
 
 
@@ -102,7 +102,7 @@ main(void) {
     led_setup();
     button_setup();
 
-    button_event_group = xEventGroupCreate();
+    button_event_group = xEventGroupCreate(); //even group regresa un handler que referencia al evento, este se llamara button_event_group
 
     xTaskCreate(debouncing,"DEBOUNCING",100,NULL,configMAX_PRIORITIES-1,NULL);
     vTaskStartScheduler();

@@ -54,11 +54,11 @@
 #define configTOTAL_HEAP_SIZE		( ( size_t ) ( 19 * 1024 ) )
 #define configMAX_TASK_NAME_LEN		( 16 )
 #define configUSE_TRACE_FACILITY	0
-#define configUSE_16_BIT_TICKS		1 //Need less than 8 bits
+#define configUSE_16_BIT_TICKS		1 //Need less than 8 bits para el evento
 #define configIDLE_SHOULD_YIELD		1
 #define configUSE_MUTEXES			1
 
-//For Event Group
+//For Event Group necesarios para el evento
 #define configSUPPORT_DYNAMIC_ALLOCATION    1
 #define configUSE_TIMERS                    1   
 #define configTIMER_TASK_PRIORITY           configMAX_PRIORITIES - 1
