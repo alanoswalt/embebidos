@@ -17,6 +17,10 @@ char minTempChar[] = "100";  /**< minTemp in char type to send by uart */
 char maxTempChar[] = "200";  /**< maxTemp in char type to send by uart */
 char recv_word[RECV_SIZE] = "d";  /**< array containing received characters  */
 char status_message[] = "Temp: XXXC\r\n";  /**< Message with the current temp */
+char mintemp_on[]= "MinTemp_On\r\n";
+char mintemp_off[]="MinTemp_Off\r\n";
+char maxtemp_on[]="MaxTemp_On\r\n";
+char maxtemp_off[]="MaxTemp_Off\r\n";
 unsigned char k = 0;  /**< position received character into recv_word */
 uint16_t maxTemp = 90, minTemp = 50;  /**< temp thresholds */
 char j = 0;  /**< increment every 0.1 sec up to 0.5*/
@@ -39,6 +43,11 @@ void inline temp_sensor(void) {
 void inline uart1_stop_receiving(void) {
     uart1_handler = TRUE;
 }
+/**
+ * RTOS
+ */
+QueueHandle_t xQueue;
+
 /**
  * Recive an int and transform it into a char
  * @param array for store the values.
@@ -87,28 +96,32 @@ void leds_dinamic(uint8_t flag) {
  * @see convertIntToChar()
  * @param adc value that has the number form the adc.
  */
-void adc_status_changed(void) {
+void adc_status_changed(void *arg __attribute__((unused))) {
     uint16_t adc;
-    adc = read_adc();
-    if (adc < minTemp) {
-        leds_dinamic(1);
-        send_word("MinTemp_On\r\n");
-    } else if (adc > maxTemp) {
-        leds_dinamic(3);
-        send_word("MaxTemp_On\r\n");
-    } else {
-        leds_dinamic(2);
-        send_word("MaxTemp_Off\r\n");
-        send_word("MinTemp_Off\r\n");
-    }
-    if (j == 4) {
-        convertIntToChar(status_message, adc, 8);
-            j = 0;
-            send_word(status_message);
-            show_temp_lcd(status_message);
-            
-    } else {
-        j++;
+    while(1){
+        if(temp_handler == TRUE){
+            temp_handler = FALSE;
+            adc = read_adc();
+            if (adc < minTemp) {
+                leds_dinamic(1);
+                send_word(mintemp_on);
+            } else if (adc > maxTemp) {
+                leds_dinamic(3);
+                send_word(maxtemp_on);
+            } else {
+                leds_dinamic(2);
+                send_word(maxtemp_off);
+                send_word(mintemp_off);
+            }
+            if (j == 4) {
+                convertIntToChar(status_message, adc, 8);
+                j = 0;
+                send_word(status_message);
+                show_temp_lcd(status_message);      
+            } else {
+                j++;
+            }
+        }  
     }
 }
 /**
@@ -122,66 +135,71 @@ void adc_status_changed(void) {
  * @param i value in postition of the mesage of the UART.
  * @param aux value to change de dimming of the LED
  */
-void uart_status_changed(void) {
-    char i = 0;
-    uint16_t aux = 0;
-    recv_word[k] = read_uart();  //  usart_recv(USART1);
-    if (recv_word[k] == 'q') {  //  Aumentar duty_cycle
-        tim_status(0);
-        adc_status(0);
-        for (; i < k; i++) {
-            aux = aux*10+(recv_word[i]-48);
+void uart_status_changed(void *arg __attribute__((unused))) {
+    while(1) {
+        char i = 0;
+        uint16_t aux = 0;
+        if (uart1_handler == TRUE) {
+            uart1_handler = FALSE;
+            recv_word[k] = read_uart();  //  usart_recv(USART1);
+            if (recv_word[k] == 'q') {  //  Aumentar duty_cycle
+                tim_status(0);
+                adc_status(0);
+                for (; i < k; i++) {
+                    aux = aux*10+(recv_word[i]-48);
+                }
+                duty_cycle = aux;
+                if (duty_cycle <= 100 && duty_cycle >= 0) {
+                    tim3_duty_cycle(duty_cycle);
+                    //  timer_set_oc_value(TIM3,TIM_OC3,duty_cycle);
+                    send_word("okq");
+                }
+                k = 255;
+                adc_status(1);
+                tim_status(1);
+            } else if (recv_word[k] == 'w') {
+                tim_status(0);
+                adc_status(0);
+                for (; i < k; i++) {
+                    aux = aux*10+(recv_word[i]-48);
+                }
+                duty_cycle = aux;
+                if (duty_cycle <= 100 && duty_cycle >= 0) {
+                    tim3_duty_cycle(duty_cycle);
+                    send_word("okw\r\n");
+                }
+                k = 255;
+                adc_status(1);
+                tim_status(1);
+            }else if (recv_word[k] == 'x') {  //  cambiar maxTemp
+                gpio_toggle(GPIOC, GPIO13);
+                tim_status(0);
+                adc_status(0);
+                for (; i < k; i++) {
+                    aux = aux*10+(recv_word[i]-48);
+                }
+                maxTemp = aux;
+                convertIntToChar(maxTempChar, maxTemp, 13);
+                send_word(maxTempChar);
+                k = 255;
+                adc_status(1);
+                tim_status(1);
+            } else if (recv_word[k] == 'n') {
+                tim_status(0);
+                adc_status(0);
+                for (; i < k; i++) {
+                    aux = aux*10+(recv_word[i]-48);
+                }
+                minTemp = aux;
+                convertIntToChar(minTempChar, minTemp, 13);
+                send_word(minTempChar);
+                k = 255;
+                adc_status(1);
+                tim_status(1);
+            }
+            k++;
         }
-        duty_cycle = aux;
-        if (duty_cycle <= 100 && duty_cycle >= 0) {
-            tim3_duty_cycle(duty_cycle);
-            //  timer_set_oc_value(TIM3,TIM_OC3,duty_cycle);
-            send_word("okq");
-        }
-        k = 255;
-        adc_status(1);
-        tim_status(1);
-    } else if (recv_word[k] == 'w') {
-        tim_status(0);
-        adc_status(0);
-        for (; i < k; i++) {
-            aux = aux*10+(recv_word[i]-48);
-        }
-        duty_cycle = aux;
-        if (duty_cycle <= 100 && duty_cycle >= 0) {
-            tim3_duty_cycle(duty_cycle);
-            send_word("okw\r\n");
-        }
-        k = 255;
-        adc_status(1);
-        tim_status(1);
-    } else if (recv_word[k] == 'x') {  //  cambiar maxTemp
-        gpio_toggle(GPIOC, GPIO13);
-        tim_status(0);
-        adc_status(0);
-        for (; i < k; i++) {
-            aux = aux*10+(recv_word[i]-48);
-        }
-        maxTemp = aux;
-        convertIntToChar(maxTempChar, maxTemp, 13);
-        send_word(maxTempChar);
-        k = 255;
-        adc_status(1);
-        tim_status(1);
-    } else if (recv_word[k] == 'n') {
-        tim_status(0);
-        adc_status(0);
-        for (; i < k; i++) {
-            aux = aux*10+(recv_word[i]-48);
-        }
-        minTemp = aux;
-        convertIntToChar(minTempChar, minTemp, 13);
-        send_word(minTempChar);
-        k = 255;
-        adc_status(1);
-        tim_status(1);
-    }
-    k++;
+    } 
 }
 int main(void) {
     /**
@@ -198,10 +216,16 @@ int main(void) {
     tim3_setup();
     lcd_setup();
     //lcd_fill(LINES);
+    xQueue = xQueueCreate(1, sizeof(char));
+    xTaskCreate(adc_status_changed,"ADC",100,NULL,configMAX_PRIORITIES-1,NULL);
+    xTaskCreate(uart_status_changed,"UART",100,NULL,configMAX_PRIORITIES-1,NULL);
+	vTaskStartScheduler();
+    for (;;);
+	return 0;
     /**
     *  Pooling system always checking the flag of the interruptions.
     */
-    while (1) {
+    /*while (1) {
         if (temp_handler == TRUE) {
             temp_handler = FALSE;
             adc_status_changed();
@@ -210,6 +234,6 @@ int main(void) {
             uart1_handler = FALSE;
             uart_status_changed();
         }
-    }
+    }*/
 }
 // End main.c

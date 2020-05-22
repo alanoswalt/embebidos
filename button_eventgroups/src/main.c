@@ -111,7 +111,7 @@ debouncing(void *args __attribute((unused))) {
                         pdFALSE, //Wait for ANY bit to be set
                         500);
         if(event_bits!=0){ //A Button was pressed
-            vTaskDelay(pdMS_TO_TICKS(100)); //Wait for 10ms
+            vTaskDelay(pdMS_TO_TICKS(50)); //Wait for 10ms
             if(event_bits & BUTTON_EVENT_BIT0){ //The Button was pressed
                 gpio_toggle(LED_PORT,LED_PIN1);
                 //Clear button event flag that may have been set again during deboucing delay

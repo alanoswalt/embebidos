@@ -7,6 +7,7 @@
     #include "adc_start.h"
     #include "lcd_start.h"
     #include <FreeRTOS.h>
+    #include <queue.h>
     #include <task.h>
     #include <timers.h>
     #include <event_groups.h>
