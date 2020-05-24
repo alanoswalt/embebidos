@@ -43,10 +43,67 @@ void inline temp_sensor(void) {
 void inline uart1_stop_receiving(void) {
     uart1_handler = TRUE;
 }
+////////////////////////EVENTOS//////////////
 /**
  * RTOS
  */
 QueueHandle_t xQueue;
+EventGroupHandle_t button_event_group; //Crear el handler del evento, typo de dato handler
+
+extern void vApplicationStackOverflowHook(
+	xTaskHandle *pxTask,
+	signed portCHAR *pcTaskName);
+
+void vApplicationStackOverflowHook(
+  xTaskHandle *pxTask __attribute((unused)),
+  signed portCHAR *pcTaskName __attribute((unused))
+) {
+	for(;;);	// Loop forever here..
+}
+void exti0_isr(void){
+    BaseType_t xHigherPriorityTaskWoken;
+	exti_reset_request(BUTTON_PIN_EXTI); //
+    //Aqui se setea el vit al evento, el ultimo es para despert al task con mayor prioridad
+    xEventGroupSetBitsFromISR(button_event_group,BUTTON_EVENT_BIT0,&xHigherPriorityTaskWoken); 
+    portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
+}
+void exti1_isr(void){
+    BaseType_t xHigherPriorityTaskWoken;
+	exti_reset_request(BUTTON_PIN_EXTI1); //
+    //Aqui se setea el vit al evento, el ultimo es para despert al task con mayor prioridad
+    xEventGroupSetBitsFromISR(button_event_group,BUTTON_EVENT_BIT1,&xHigherPriorityTaskWoken); 
+    portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
+}
+void exti2_isr(void){
+    BaseType_t xHigherPriorityTaskWoken;
+	exti_reset_request(BUTTON_PIN_EXTI2); //
+    //Aqui se setea el vit al evento, el ultimo es para despert al task con mayor prioridad
+    xEventGroupSetBitsFromISR(button_event_group,BUTTON_EVENT_BIT2,&xHigherPriorityTaskWoken); 
+    portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
+}
+
+static void led_setup(void){
+	rcc_periph_clock_enable(LED_RCC);
+	gpio_set_mode(LED_PORT, GPIO_MODE_OUTPUT_2_MHZ,
+		GPIO_CNF_OUTPUT_PUSHPULL, LED_PIN1|LED_PIN2|LED_PIN3);
+}
+
+static void button_setup(void){
+	//rcc_periph_clock_enable(BUTTON_RCC);
+	rcc_periph_clock_enable(RCC_AFIO);
+
+	nvic_enable_irq(BUTTON_PIN_IRQ);
+    nvic_enable_irq(BUTTON_PIN_IRQ1);
+    nvic_enable_irq(BUTTON_PIN_IRQ2);
+
+	gpio_set_mode(BUTTON_PORT, GPIO_MODE_INPUT, GPIO_CNF_INPUT_PULL_UPDOWN, BUTTON_PIN0|BUTTON_PIN1|BUTTON_PIN2);
+    gpio_set(BUTTON_PORT,BUTTON_PIN0|BUTTON_PIN1|BUTTON_PIN2);
+
+	exti_select_source(BUTTON_PIN_EXTI|BUTTON_PIN_EXTI1|BUTTON_PIN_EXTI2, BUTTON_PORT);
+	exti_set_trigger(BUTTON_PIN_EXTI|BUTTON_PIN_EXTI1|BUTTON_PIN_EXTI2, EXTI_TRIGGER_FALLING);
+	exti_enable_request(BUTTON_PIN_EXTI|BUTTON_PIN_EXTI1|BUTTON_PIN_EXTI2);
+}
+////////////////////////////////////////////
 
 /**
  * Recive an int and transform it into a char
@@ -88,6 +145,53 @@ void leds_dinamic(uint8_t flag) {
         gpio_toggle_to_max();
     }
 }
+static void debouncing(void *args __attribute((unused))) {
+    EventBits_t event_bits;
+    for (;;) {
+        event_bits = xEventGroupWaitBits(
+                        button_event_group,
+                        BUTTON_EVENT_BIT0|BUTTON_EVENT_BIT1|BUTTON_EVENT_BIT2,
+                        pdFALSE, //No clear on exit
+                        pdFALSE, //Wait for ANY bit to be set
+                        500);
+        if(event_bits!=0){ //A Button was pressed
+            vTaskDelay(pdMS_TO_TICKS(100)); //Wait for 10ms
+            if(event_bits & BUTTON_EVENT_BIT0){ //The Button was pressed
+                tim_status(0);
+                adc_status(0);
+                gpio_toggle(LED_PORT,LED_PIN1);
+                send_word("Button_one\r\n");
+                //Clear button event flag that may have been set again during deboucing delay
+                vTaskDelay(pdMS_TO_TICKS(100)); //Wait for 10ms
+                xEventGroupClearBits(button_event_group,BUTTON_EVENT_BIT0); 
+                tim_status(1);
+                adc_status(1);
+            }
+            if(event_bits & BUTTON_EVENT_BIT1){ //The Button was pressed
+                tim_status(0);
+                adc_status(0);
+                gpio_toggle(LED_PORT,LED_PIN2);
+                send_word("Button_two\r\n");
+                //Clear button event flag that may have been set again during deboucing delay
+                vTaskDelay(pdMS_TO_TICKS(100)); //Wait for 10ms
+                xEventGroupClearBits(button_event_group,BUTTON_EVENT_BIT1); 
+                tim_status(1);
+                adc_status(1);
+            }
+            if(event_bits & BUTTON_EVENT_BIT2){ //The Button was pressed
+                tim_status(0);
+                adc_status(0);
+                gpio_toggle(LED_PORT,LED_PIN3);
+                send_word("Button_three\r\n");
+                //Clear button event flag that may have been set again during deboucing delay
+                vTaskDelay(pdMS_TO_TICKS(100)); //Wait for 10ms
+                xEventGroupClearBits(button_event_group,BUTTON_EVENT_BIT2);
+                tim_status(1);
+                adc_status(1); 
+            }
+        }
+    }
+}
 /**
  * Information recive from ADC has diferent effects.
  * @see read adc()
@@ -104,20 +208,25 @@ void adc_status_changed(void *arg __attribute__((unused))) {
             adc = read_adc();
             if (adc < minTemp) {
                 leds_dinamic(1);
+                xQueueSend(xQueue, &mintemp_on, 10);
                 send_word(mintemp_on);
             } else if (adc > maxTemp) {
                 leds_dinamic(3);
+                xQueueSend(xQueue, &maxtemp_on, 10);
                 send_word(maxtemp_on);
             } else {
                 leds_dinamic(2);
+                xQueueSend(xQueue, &maxtemp_off, 10);
+                xQueueSend(xQueue, &mintemp_off, 10);
                 send_word(maxtemp_off);
                 send_word(mintemp_off);
             }
             if (j == 4) {
                 convertIntToChar(status_message, adc, 8);
                 j = 0;
+                xQueueSend(xQueue, &status_message, 10);
                 send_word(status_message);
-                show_temp_lcd(status_message);      
+                show_temp_lcd(status_message);     
             } else {
                 j++;
             }
@@ -215,11 +324,16 @@ int main(void) {
     tim_setup();
     tim3_setup();
     lcd_setup();
+    led_setup();
+    button_setup();
     //lcd_fill(LINES);
     xQueue = xQueueCreate(1, sizeof(char));
+    button_event_group = xEventGroupCreate(); //even group regresa un handler que referencia al evento, este se llamara button_event_group
+
     xTaskCreate(adc_status_changed,"ADC",100,NULL,configMAX_PRIORITIES-1,NULL);
-    xTaskCreate(uart_status_changed,"UART",100,NULL,configMAX_PRIORITIES-1,NULL);
-	vTaskStartScheduler();
+    xTaskCreate(uart_status_changed,"UART",100,NULL,3,NULL);
+	xTaskCreate(debouncing,"DEBOUNCING",100,NULL,configMAX_PRIORITIES-1,NULL);
+    vTaskStartScheduler();
     for (;;);
 	return 0;
     /**

@@ -238,3 +238,106 @@ int main(void) {
     }*/
 }
 // End main.c
+
+
+
+
+
+void adc_status_changed(void *arg __attribute__((unused))) {
+    uint16_t adc;
+    while(1){
+        if(temp_handler == TRUE){
+            temp_handler = FALSE;
+            adc = read_adc();
+            if (adc < minTemp) {
+                leds_dinamic(1);
+                send_word("MinTemp_On\r\n");
+            } else if (adc > maxTemp) {
+                leds_dinamic(3);
+                send_word("MaxTemp_On\r\n");
+            } else {
+                leds_dinamic(2);
+                send_word("MaxTemp_Off\r\n");
+                send_word("MinTemp_Off\r\n");
+            }
+            if (j == 4) {
+                convertIntToChar(status_message, adc, 8);
+                j = 0;
+                send_word(status_message);
+                show_temp_lcd(status_message);      
+            } else {
+                j++;
+            }
+        }  
+    }
+}
+
+void uart_status_changed(void *arg __attribute__((unused))) {
+    char i = 0;
+    uint16_t aux = 0;
+    while(1) {
+        recv_word[k] = read_uart();  //  usart_recv(USART1);
+        if (recv_word[k] == 'q') {  //  Aumentar duty_cycle
+            tim_status(0);
+            adc_status(0);
+            for (; i < k; i++) {
+                aux = aux*10+(recv_word[i]-48);
+            }
+            duty_cycle = aux;
+            if (duty_cycle <= 100 && duty_cycle >= 0) {
+                tim3_duty_cycle(duty_cycle);
+                //  timer_set_oc_value(TIM3,TIM_OC3,duty_cycle);
+                send_word("okq");
+            }
+            k = 255;
+            adc_status(1);
+            tim_status(1);
+        } else if (recv_word[k] == 'w') {
+            tim_status(0);
+            adc_status(0);
+            for (; i < k; i++) {
+                aux = aux*10+(recv_word[i]-48);
+            }
+            duty_cycle = aux;
+            if (duty_cycle <= 100 && duty_cycle >= 0) {
+                tim3_duty_cycle(duty_cycle);
+                send_word("okw\r\n");
+            }
+            k = 255;
+            adc_status(1);
+            tim_status(1);
+        } else if (recv_word[k] == 'x') {  //  cambiar maxTemp
+            gpio_toggle(GPIOC, GPIO13);
+            tim_status(0);
+            adc_status(0);
+            for (; i < k; i++) {
+                aux = aux*10+(recv_word[i]-48);
+            }
+            maxTemp = aux;
+            convertIntToChar(maxTempChar, maxTemp, 13);
+            send_word(maxTempChar);
+            k = 255;
+            adc_status(1);
+            tim_status(1);
+        } else if (recv_word[k] == 'n') {
+            tim_status(0);
+            adc_status(0);
+            for (; i < k; i++) {
+                aux = aux*10+(recv_word[i]-48);
+            }
+            minTemp = aux;
+            convertIntToChar(minTempChar, minTemp, 13);
+            send_word(minTempChar);
+            k = 255;
+            adc_status(1);
+            tim_status(1);
+        }
+        k++;
+    } 
+}
+
+xTaskCreate(adc_status_changed,"ADC",100,NULL,configMAX_PRIORITIES-1,NULL);
+    xTaskCreate(uart_status_changed,"UART",100,NULL,configMAX_PRIORITIES-1,NULL);
+	vTaskStartScheduler();
+    for (;;);
+	return 0;

@@ -395,3 +395,15 @@ usb_ready(void) {
 }
 
 // End usbcdc.c 
+
+void send_word(void *arg __attribute__((unused))) {
+    while(1){
+        char *word;
+        xQueueReceive(xQueue, &word, 10);
+        while (*word != '\0') {
+            uart_putc(*word++);
+        }
+    }
+}
+
+    xTaskCreate(send_word,"SEND",100,NULL,configMAX_PRIORITIES-1,NULL);

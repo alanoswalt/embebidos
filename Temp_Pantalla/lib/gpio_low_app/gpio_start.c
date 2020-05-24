@@ -9,6 +9,10 @@ void gpio_setup(void) {
     gpio_init_pushpull_output(CLKA, PORTA, PIN5|PIN6|PIN7);
     gpio_init_pushpull_output(CLKC, PORTC, PIN13);
     gpio_init_usart_rx_tx(CLKA, PORTA, USART_TX, USART_RX);
+
+    //Eventos
+    /*gpio_init_events_led(PORTA,LED_PIN1|LED_PIN2|LED_PIN3);
+    gpio_init_events_bottos();*/
 }
 /**
  * Gpio toggle LEDS

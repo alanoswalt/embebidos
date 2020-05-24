@@ -100,8 +100,7 @@ void exti2_isr(void){
     portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
 }
 
-static void
-debouncing(void *args __attribute((unused))) {
+static void debouncing(void *args __attribute((unused))) {
     EventBits_t event_bits;
     for (;;) {
         event_bits = xEventGroupWaitBits(
