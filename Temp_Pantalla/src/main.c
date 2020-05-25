@@ -43,12 +43,13 @@ void inline temp_sensor(void) {
 void inline uart1_stop_receiving(void) {
     uart1_handler = TRUE;
 }
-////////////////////////EVENTOS//////////////
+////////////////////////RTOS HANDLERS//////////////
 /**
  * RTOS
  */
 QueueHandle_t xQueue;
 EventGroupHandle_t button_event_group; //Crear el handler del evento, typo de dato handler
+SemaphoreHandle_t swtimer_semaphore_hdl;
 
 extern void vApplicationStackOverflowHook(
 	xTaskHandle *pxTask,
@@ -82,7 +83,7 @@ void exti2_isr(void){
     portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
 }
 
-static void led_setup(void){
+/*static void led_setup(void){
 	rcc_periph_clock_enable(LED_RCC);
 	gpio_set_mode(LED_PORT, GPIO_MODE_OUTPUT_2_MHZ,
 		GPIO_CNF_OUTPUT_PUSHPULL, LED_PIN1|LED_PIN2|LED_PIN3);
@@ -102,7 +103,7 @@ static void button_setup(void){
 	exti_select_source(BUTTON_PIN_EXTI|BUTTON_PIN_EXTI1|BUTTON_PIN_EXTI2, BUTTON_PORT);
 	exti_set_trigger(BUTTON_PIN_EXTI|BUTTON_PIN_EXTI1|BUTTON_PIN_EXTI2, EXTI_TRIGGER_FALLING);
 	exti_enable_request(BUTTON_PIN_EXTI|BUTTON_PIN_EXTI1|BUTTON_PIN_EXTI2);
-}
+}*/
 ////////////////////////////////////////////
 
 /**
@@ -324,12 +325,12 @@ int main(void) {
     tim_setup();
     tim3_setup();
     lcd_setup();
-    led_setup();
-    button_setup();
+    //led_setup();
+    //button_setup();
     //lcd_fill(LINES);
     xQueue = xQueueCreate(1, sizeof(char));
     button_event_group = xEventGroupCreate(); //even group regresa un handler que referencia al evento, este se llamara button_event_group
-
+    swtimer_semaphore_hdl = xSemaphoreCreateMutex();
     xTaskCreate(adc_status_changed,"ADC",100,NULL,configMAX_PRIORITIES-1,NULL);
     xTaskCreate(uart_status_changed,"UART",100,NULL,3,NULL);
 	xTaskCreate(debouncing,"DEBOUNCING",100,NULL,configMAX_PRIORITIES-1,NULL);

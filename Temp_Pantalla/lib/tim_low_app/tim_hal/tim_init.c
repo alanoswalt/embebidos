@@ -35,8 +35,8 @@ void enable_pwm(uint32_t tim, uint8_t dutyCy, uint32_t out_ch) {
     gpio_primary_remap(
                        AFIO_MAPR_SWJ_CFG_JTAG_OFF_SW_OFF,
                        AFIO_MAPR_TIM3_REMAP_NO_REMAP);
-    gpio_set_mode(GPIOB, GPIO_MODE_OUTPUT_50_MHZ,
-                  GPIO_CNF_OUTPUT_ALTFN_PUSHPULL, GPIO0);
+    /*gpio_set_mode(GPIOB, GPIO_MODE_OUTPUT_50_MHZ,
+                  GPIO_CNF_OUTPUT_ALTFN_PUSHPULL, GPIO0);*/
     timer_disable_oc_output(tim, out_ch);
     timer_set_oc_mode(tim, out_ch, TIM_OCM_PWM2);
     timer_enable_oc_output(tim, out_ch);
