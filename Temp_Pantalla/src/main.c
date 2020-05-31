@@ -334,12 +334,12 @@ void uart_status_changed(void *arg __attribute__((unused))) {
     }
 }*/
 ////////////////////////////////////////////////////////////////////////////////
-void dma1_channel4_isr(void){
+/*void dma1_channel4_isr(void){
     dma_clear_interrupt_flags(DMA1, DMA_CHANNEL4, DMA_TCIF);
     usart_disable_tx_dma(USART1);
     gpio_toggle(GPIOC,GPIO13);
-}
-static void dma_init(){
+}*/
+/*void dma_init(){
     rcc_periph_clock_enable(RCC_DMA1);
     nvic_set_priority(NVIC_DMA1_CHANNEL4_IRQ, 0);
     nvic_enable_irq(NVIC_DMA1_CHANNEL4_IRQ);
@@ -355,15 +355,15 @@ static void dma_init(){
     //dma_enable_circular_mode(DMA1, DMA_CHANNEL4);
     dma_enable_transfer_complete_interrupt(DMA1, DMA_CHANNEL4);
     
-}
+}*/
 
-void send_by_dma(char *recv_word1, uint16_t size){
+/*void send_by_dma(char *recv_word1, uint16_t size){
     dma_disable_channel(DMA1, DMA_CHANNEL4);
     dma_set_memory_address(DMA1, DMA_CHANNEL4,(uint32_t) recv_word1);
     dma_set_number_of_data(DMA1, DMA_CHANNEL4, size);
     dma_enable_channel(DMA1, DMA_CHANNEL4);
     usart_enable_tx_dma(USART1);
-}
+}*/
 
 
 int main(void) {

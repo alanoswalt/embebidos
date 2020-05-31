@@ -2,8 +2,8 @@
 #ifndef MAIN_SETUP_H_
 #define MAIN_SETUP_H_
     //#include <libopencm3/stm32/exti.h>
-    #include <libopencm3/stm32/dma.h>
     #include "gpio_start.h"
+    #include "dma_start.h"
     #include "uart_start.h"
     #include "tim_start.h"
     #include "adc_start.h"
