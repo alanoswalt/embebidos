@@ -26,7 +26,7 @@
 
 #define RECV_SIZE 4
 
-uint8_t recv_word[RECV_SIZE] = "HOLA";
+uint8_t recv_word[6] = "HOLA\r\n";
 
 char i=0;
 
@@ -145,12 +145,13 @@ int main(void) {
     nvic_enable_irq(NVIC_DMA1_CHANNEL4_IRQ);
      dma_init();
     uart_setup();
-    uart_putc('A');
+    //uart_putc('A');
     send_by_dma();
     //send_word(nombre);
 
 
 	for (;;);
+    //send_by_dma();
 	return 0;
 }
 

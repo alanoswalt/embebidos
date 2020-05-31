@@ -3,7 +3,7 @@
  * Points 1.[a-c] must be implemented. This includes sampling temperature every 0.1 seconds. The values of MaxTempTh and MinTempTh can be initially set to an arbitrary value that may change by configuring it.
  * In NORMAL mode, every 0.5 seconds the blue pill will send status data to the PC terminal through UART. The status data must include current temperature (last sampled temperature is fine), values for Max and Min Temp Thresholds, and whether or not the Max or Min Temperatures are reached currently. All the data shall be printed in 1 line. A sample message can be:
  * Temp: 25C, MaxTempTh: 28C, MinTempTh: 24C, MaxTemp: Off, MinTemp: Off
- * Whenever a “config key” has been pressed, the program will enter CONFIG mode, where Max or Min Temp Thresholds will be configured. In this mode, all interruptions other than UART Rx must be disabled i.e. no sampling will be done, and no status will be sent to the UART Tx. One config key will represent the MaxTempTh and another the MinTempTh, a suggestion is to use “x” and “n” keys.
+ * Whenever a â€œconfig keyâ€ has been pressed, the program will enter CONFIG mode, where Max or Min Temp Thresholds will be configured. In this mode, all interruptions other than UART Rx must be disabled i.e. no sampling will be done, and no status will be sent to the UART Tx. One config key will represent the MaxTempTh and another the MinTempTh, a suggestion is to use â€œxâ€ and â€œnâ€ keys.
  * If the MaxTempTh key was pressed the terminal will prompt the user with a message like:
  * Set Max Temperature Threshold (C):
  * Then the user will input the value in degrees Celsius and press . Upon recognizing the key, the value will be stored as the new MaxTempTh.
@@ -25,6 +25,7 @@ unsigned char k = 0;  /**< position received character into recv_word */
 uint16_t maxTemp = 90, minTemp = 50;  /**< temp thresholds */
 char j = 0;  /**< increment every 0.1 sec up to 0.5*/
 short duty_cycle = 0;
+#define countof(a) (sizeof(a)/sizeof(*(a)))
 //static I2C_config i2c; 
 /**
  * Flags for occured interruptions
@@ -159,7 +160,7 @@ static void debouncing(void *args __attribute((unused))) {
                 adc_status(0);
                 gpio_toggle(LED_PORT,LED_PIN1);
                 //send_word("Button_one\r\n");
-                send_by_dma("Button_one\r\n");
+                send_by_dma("Button_one\r\n", 14);
                 //Clear button event flag that may have been set again during deboucing delay
                 vTaskDelay(pdMS_TO_TICKS(100)); //Wait for 10ms
                 xEventGroupClearBits(button_event_group,BUTTON_EVENT_BIT0); 
@@ -171,7 +172,7 @@ static void debouncing(void *args __attribute((unused))) {
                 adc_status(0);
                 gpio_toggle(LED_PORT,LED_PIN2);
                 //send_word("Button_two\r\n");
-                send_by_dma("Button_two\r\n");
+                send_by_dma("Button_two\r\n", 14);
                 //Clear button event flag that may have been set again during deboucing delay
                 vTaskDelay(pdMS_TO_TICKS(100)); //Wait for 10ms
                 xEventGroupClearBits(button_event_group,BUTTON_EVENT_BIT1); 
@@ -183,7 +184,7 @@ static void debouncing(void *args __attribute((unused))) {
                 adc_status(0);
                 gpio_toggle(LED_PORT,LED_PIN3);
                 //send_word("Button_three\r\n");
-                send_by_dma("Button_three\r\n");
+                send_by_dma("Button_three\r\n", 16);
                 //Clear button event flag that may have been set again during deboucing delay
                 vTaskDelay(pdMS_TO_TICKS(100)); //Wait for 10ms
                 xEventGroupClearBits(button_event_group,BUTTON_EVENT_BIT2);
@@ -214,26 +215,26 @@ void adc_status_changed(void *arg __attribute__((unused))) {
                 leds_dinamic(1);
                 //xQueueSend(xStatusQueue, &mintemp_on, 10);
                 //send_word(mintemp_on);
-                send_by_dma(mintemp_on);
+                send_by_dma(mintemp_on, countof(mintemp_on));
             } else if (adc > maxTemp) {
                 leds_dinamic(3);
                 //xQueueSend(xStatusQueue, &maxtemp_on, 10);
                 //send_word(maxtemp_on);
-                send_by_dma(maxtemp_on);
+                send_by_dma(maxtemp_on, countof(mintemp_on));
             } else {
                 leds_dinamic(2);
                 //xQueueSend(xStatusQueue, &maxtemp_off, 10);
                 //xQueueSend(xStatusQueue, &mintemp_off, 10);
                 //send_word(maxtemp_off);
                 //send_word(mintemp_off);
-                send_by_dma(maxtemp_off);
-                send_by_dma(mintemp_off);
+                send_by_dma(maxtemp_off, countof(mintemp_off));
+                send_by_dma(mintemp_off, countof(mintemp_off));
             }
             if (j == 4) {
                 convertIntToChar(status_message, adc, 8);
                 j = 0;
                 //xQueueSend(xTempQueue, &status_message, 10);
-                send_by_dma(status_message);
+                send_by_dma(status_message, countof(status_message));
                 //send_word(status_message);
                 show_temp_lcd(status_message);     
             } else {
@@ -333,10 +334,16 @@ void uart_status_changed(void *arg __attribute__((unused))) {
     }
 }*/
 ////////////////////////////////////////////////////////////////////////////////
+void dma1_channel4_isr(void){
+    dma_clear_interrupt_flags(DMA1, DMA_CHANNEL4, DMA_TCIF);
+    usart_disable_tx_dma(USART1);
+    gpio_toggle(GPIOC,GPIO13);
+}
 static void dma_init(){
     rcc_periph_clock_enable(RCC_DMA1);
     nvic_set_priority(NVIC_DMA1_CHANNEL4_IRQ, 0);
     nvic_enable_irq(NVIC_DMA1_CHANNEL4_IRQ);
+
     dma_channel_reset(DMA1, DMA_CHANNEL4);
     dma_set_peripheral_address(DMA1, DMA_CHANNEL4,
                                (uint32_t)&USART1_DR);
@@ -350,10 +357,10 @@ static void dma_init(){
     
 }
 
-void send_by_dma(recv_word1){
+void send_by_dma(char *recv_word1, uint16_t size){
     dma_disable_channel(DMA1, DMA_CHANNEL4);
     dma_set_memory_address(DMA1, DMA_CHANNEL4,(uint32_t) recv_word1);
-    dma_set_number_of_data(DMA1, DMA_CHANNEL4, RECV_SIZE);
+    dma_set_number_of_data(DMA1, DMA_CHANNEL4, size);
     dma_enable_channel(DMA1, DMA_CHANNEL4);
     usart_enable_tx_dma(USART1);
 }
